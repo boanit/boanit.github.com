@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="Hompage">
-		<meta name="author" content="Corp">
-		<link rel="shortcut icon" href="assets/image/favicon.ico">
+		<meta name="description" content="namu Hompage">
+		<meta name="author" content="naum Corp">
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
 		
-		<title>boanit</title>
+		<title>나무시큐리티</title>
 		
 		<!-- CSS -->
 		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -18,6 +18,13 @@
 	    
 		<!-- Custom styles CSS -->
 		<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	    <script>
+			if(location.href=="http://104.215.62.88/"){
+				document.location.replace("index.asp");
+			}else if(location.href=="http://www.namusecurity.co.kr/"){
+				document.location.replace("https://www.namusecurity.co.kr/");
+			}
+		</script>
 	    <script src="assets/js/modernizr.custom.js"></script>
 	</head>
 	
@@ -31,10 +38,10 @@
 		<section id="home" class="pfblock-image screen-height">
 	        <div class="home-overlay"></div>
 			<div class="intro">
-				<div class="start start-title">취약점 진단 전문기업</div>
-				<h1><img src="assets/image/boan.png"></h1>
-				<div class="start start-discription"><strong>주식회사 보안정보기술</strong>은 국내 취약점 진단의 원천기술력을 보유하고 있으며,</div>
-				<div class="start start-discription">secure coding, iot, 교육 서비스를 제공하는 보안전문기업입니다.</div>
+				<div class="start start-title">모바일 앱 취약점 진단 전문기업</div>
+				<h1><img src="assets/images/namu.png"></h1>
+				<div class="start start-discription"><strong>주식회사 보안정보기술</strong>은 국내 모바일 앱 진단의 원천기술력을 보유하고 있으며,</div>
+				<div class="start start-discription">개인정보보호를 위해 노력하는 종합보안전문기업입니다.</div>
 			</div>
 	        
 		</section>
@@ -51,15 +58,15 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="http://www.boanit.kr"><img src="assets/image/sm.png" alt="boanit" /></a>
+						<a class="navbar-brand" href="http://www.namusecurity.co.kr"><img src="assets/images/sm.png" alt="namusecurity" /></a>
 					</div>
 					<div class="collapse navbar-collapse" id="custom-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#home">Home</a></li>
-							<li><a href="#privacy">web site pentest</a></li>
-	                        <li><a href="#apps">mobile app pentest</a></li>
-	                        <li><a href="#validation">secure coding</a></li>
-							<li><a href="#guide">education</a></li>
+							<li><a href="#privacy">개인정보 노출 점검</a></li>
+	                        <li><a href="#apps">스마트폰 악성 앱 진단</a></li>
+	                        <li><a href="#validation">프로그래밍 코드 검증</a></li>
+							<li><a href="#guide">스마트 폰 앱 진단 가이드</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
@@ -74,16 +81,16 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<div class="pfblock-header wow fadeInUp">
-							<h2 class="pfblock-title">web site pentest</h2>
+							<h2 class="pfblock-title">개인정보 노출 점검 솔루션</h2>
 							<div class="pfblock-line"></div>
 						</div>
 					</div>
 				</div><!-- .row -->
 				<div class="row">
 					<div class="contentsbox">
-						<h3 class="contentsbox-title">최신 취약점 탐색 및 점검을 실시합니다.</h3>
+						<h3 class="contentsbox-title">웹페이지에 노출된 개인정보를 자동으로 탐색합니다.</h3>
 						<div class="grid wow fadeIn">
-							<img src="assets/image/cve.jpg" alt="history">
+							<img src="assets/images/uzon.jpg" alt="history" />
 						</div>
 					</div>
 				</div><!-- .row -->
@@ -97,16 +104,16 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<div class="pfblock-header wow fadeInUp">
-							<h2 class="pfblock-title">mobile app pentest</h2>
+							<h2 class="pfblock-title">스마트폰 악성 앱 진단 솔루션</h2>
 							<div class="pfblock-line"></div>
 						</div>
 					</div>
 				</div><!-- .row -->
 				<div class="row">
 					<div class="contentsbox">
-						<h3 class="contentsbox-title">스마트폰에 설치된 앱분석 및 외부로 내부 데이터를 확인합니다.</h3>
+						<h3 class="contentsbox-title">스마트폰에 설치된 앱이 실행될 때 외부로 유출되는 데이터를 확인합니다.</h3>
 						<div class="grid wow fadeIn">
-							<img src="assets/image/mobile1.jpg" alt="mobile">
+							<img src="assets/images/droid.jpg" alt="안드로이드" />
 						</div>
 					</div>
 					</div>
@@ -121,16 +128,16 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<div class="pfblock-header wow fadeInUp">
-							<h2 class="pfblock-title">secure coding</h2>
+							<h2 class="pfblock-title">프로그래밍 코드 검증 시스템</h2>
 							<div class="pfblock-line"></div>
 						</div>
 					</div>
 				</div><!-- .row -->
 				<div class="row">
 					<div class="contentsbox">
-						<h3 class="contentsbox-title">소스 코드의 무결성 검사 및 보안 취약점 존재 여부를 검증합니다.</h3>
+						<h3 class="contentsbox-title">원격으로 코드의 무결성 검사 및 보안 취약점 존재 여부를 검증합니다.</h3>
 						<div class="grid wow fadeIn">
-							<img src="assets/image/sql.jpg" alt="code">
+							<img src="assets/images/code.jpg" alt="code" />
 						</div>
 					</div>
 				</div><!-- .row -->
@@ -144,25 +151,25 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<div class="pfblock-header wow fadeInUp">
-							<h2 class="pfblock-title">education</h2>
+							<h2 class="pfblock-title">스마트폰 앱 진단 가이드</h2>
 							<div class="pfblock-line"></div>
 						</div>
 					</div>
 				</div><!-- .row -->
 				<div class="row">
 					<div class="contentsbox">
-						<h3 class="contentsbox-title">스마트폰 앱 관련 가이드 및 교육을 제공합니다.</h3>
+						<h3 class="contentsbox-title">스마트폰 앱 관련 사업자, 개발자들을 위한 가이드를 제공합니다.</h3>
 						<div class="grid wow fadeIn">
-							<!--img src="assets/images/guide.png" alt="guide" /-->
+							<img src="assets/images/guide.png" alt="guide" />
 						</div>
 					</div>
 				</div><!-- .row -->
 				<!-- .row -->
 				<div class="row">
 					<div class="contentsbox">
-						<h3 class="contentsbox-title">취약점 점검/조치를 위한 가이드를 제공합니다.</h3>
+						<h3 class="contentsbox-title">개인정보 보호 및 취약점 조치를 위한 상세한 가이드를 제공합니다.</h3>
 						<div class="grid wow fadeIn">
-							<img src="assets/image/edu1.jpg" alt="guide">
+							<img src="assets/images/guide2.png" alt="guide" />
 						</div>
 					</div>
 				</div><!-- .row -->
@@ -184,7 +191,7 @@
 				<div class="row">
 					<div class="contentsbox">
 						<div class="grid wow fadeIn">
-							서울시 서초대로 3-4, 방배디오슈페리움1, B동 1407호<br />주식회사 보안정보기술<br /><p><a href="https://boanit.github.io/pen/">기술 블로그</a>
+							준비중
 						</div>
 					</div>
 				</div><!-- .row -->
@@ -198,7 +205,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 	                    <p class="copyright">
-	                        © 2018 Boanit Co.,Ltd. All rights reserved.
+	                        © 2018 NAMUSECURITY Co.,Ltd. All rights reserved.
 						</p>
 					</div>
 				</div><!-- .row -->
